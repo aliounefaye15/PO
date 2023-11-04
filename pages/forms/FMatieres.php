@@ -74,7 +74,7 @@ require_once('../connexion.php');
             <div class="container-fluid">
                 <div class="card">
                     <div class="card-body">
-                        <h3 class="text-center">Formulaire Ajout Matieres</h3>
+                        <h3 class="text-center">Formulaire Ajout Filiere</h3>
 
                         <form class="forms-responsive"  action="" method="post">
                             <div class="form-group row">

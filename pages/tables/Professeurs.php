@@ -12,8 +12,8 @@ require_once('../connexion.php');
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="navbar-brand-wrapper d-flex justify-content-center">
         <div class="navbar-brand-inner-wrapper d-flex justify-content-between align-items-center w-100">
-          <a class="navbar-brand brand-logo" href="../../index.html"><img src="../../images/logo.svg" alt="logo" /></a>
-          <a class="navbar-brand brand-logo-mini" href="../../index.html"><img src="../../images/logo-mini.svg" alt="logo" /></a>
+          <a class="navbar-brand brand-logo" href="../../index.html"><img src="../../images/isep.jpg" alt="logo" /></a>
+          <a class="navbar-brand brand-logo-mini" href="../../index.html"><img src="../../images/isep.jpg" alt="logo" /></a>
           <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
             <span class="typcn typcn-th-menu"></span>
           </button>
@@ -86,7 +86,7 @@ require_once('../connexion.php');
                 <div class="card">
                     <div class="card-body">
 
-                        <h2 class="text-center">Liste Professeurs</h2>
+                        <h2 class="text-center">REGISTRE D'ENSEIGNEMENT</h2>
                     
                         <div class="table-responsive">
                             <table class="table table-hover">
@@ -101,35 +101,29 @@ require_once('../connexion.php');
                                 /* Affichage liste*/
                                 $resultat = mysqli_query($conecole, $req_recuperation);
                                 $nbr = mysqli_num_rows($resultat);
-                                echo "<p><b> Total des professeurs enrigistres:" . $nbr . "</b></p>";
+                                echo "<p><b> Total des ETUDIANTS enrigistres:" . $nbr . "</b></p>";
                                 ?>
                                 <thead>
                                     <tr class="table-info">
-                                        <th>
-                                            matricule
-                                        </th>
-                                        <th>
-                                            Nom
-                                        </th>
-                                        <th>
-                                            Prénom
-                                        </th>
-
-                                        <th>
-                                            Matiere
-                                        </th>
-                                        <th>
-                                            Niveau
-                                        </th>
-                                        <th>
-                                            Sexe
-                                        </th>
-                                        <th>
-                                            MODIFIER
-                                        </th>
-                                        <th>
-                                            SUPPRIMER
-                                        </th>
+                                    <th>
+                      Matricule
+                    </th>
+                    <th>
+                      Nom
+                    </th>
+                    <th>
+                      Prénom
+                    </th>
+                    <th>
+                   sexe
+                    </th>
+                   
+                    <th>
+                      MODIFIER
+                    </th>
+                    <th>
+                      SUPPRIMER
+                    </th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -141,8 +135,7 @@ require_once('../connexion.php');
                                         <td><?php echo $ligne['matricule']; ?></td>
                                         <td><?php echo $ligne['Nom']; ?></td>
                                         <td><?php echo $ligne['Prenom']; ?></td>
-                                        <td><?php echo $ligne['Matiere']; ?></td>
-                                        <td><?php echo $ligne['Niveau']; ?></td>
+                                        
                                         <td><?php echo $ligne['Sexe']; ?></td>
                                         <td><a href="ModifProf.php?id=<?php echo $ligne['matricule']; ?>" class="btn btn-primary"><i class="bi bi-pencil-fill"></i></a></td>
                                         <td><a href="supprimerProf.php?id=<?php echo $ligne['matricule']; ?>" class="btn btn-danger"><i class="bi bi-trash-fill"></i></a></td>

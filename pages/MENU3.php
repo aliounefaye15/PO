@@ -26,7 +26,7 @@
             </a>
             <div class="collapse" id="form-elements">
                 <ul class="nav flex-column sub-menu">
-                    <li class="nav-item"><a class="nav-link" href="pages/forms/FEtudiants.php">Etudiants</a></li>
+                    <li class="nav-item"><a class="nav-link" href="pages/forms/FEtudiants.php">Apprenant</a></li>
                     <li class="nav-item"><a class="nav-link" href="pages/forms/FProfesseurs.php">Professeurs</a></li>
                     <li class="nav-item"><a class="nav-link" href="pages/forms/FMatieres.php">Matieres</a></li>
                     <li class="nav-item"><a class="nav-link" href="pages/forms/FUtilisateurs.php">Utilisateurs</a></li>
@@ -43,7 +43,7 @@
             </a>
             <div class="collapse" id="tables">
                 <ul class="nav flex-column sub-menu">
-                    <li class="nav-item"> <a class="nav-link" href="pages/tables/Etudiants.php">Etudiants</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="pages/tables/Etudiants.php">Apprenant</a></li>
                     <li class="nav-item"> <a class="nav-link" href="pages/tables/Matieres.php">Matieres</a></li>
                     <li class="nav-item"> <a class="nav-link" href="pages/tables/Professeurs.php">Professeurs</a></li>
             

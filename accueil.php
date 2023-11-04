@@ -282,7 +282,7 @@ require_once('pages/connexion.php');
                 <div class="card-body bg-warning text-white">
                   <div class="d-flex align-items-center justify-content-between justify-content-md-center justify-content-xl-between flex-wrap mb-4">
                     <div>
-                      <p class="mb-2 text-md-center text-lg-left"><h5>Liste des proffesseurs</h5></p>
+                      <p class="mb-2 text-md-center text-lg-left"><h5>Liste des ETUDIANTS</h5></p>
                       <h1 class="mb-0"><?php echo $nbr?></h1>
                     </div>
                     <i class="bi bi-person-circle icon-xl"></i>

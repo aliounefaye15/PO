@@ -81,7 +81,7 @@ require_once('../connexion.php');
       <div class="container-fluid">
         <div class="card">
           <div class="card-body">
-            <h3 class="text-center">Formulaire Ajout Etudiants</h3>
+            <h3 class="text-center">Formulaire Ajout Apprenant</h3>
             <?php while ($res = $req->fetch()) { ?>
             <form class="forms-responsive" action="" method="post">
               <div class="form-group row">
